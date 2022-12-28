@@ -216,7 +216,7 @@ class Cell(nn.Module):
         layers = [torch.zeros_like(x)]*6
         for i in range(6):
             s, t = L[i]
-            ops = node_ops[i]
+            ops = node_ops[self.Arch[i]]
             st_op = MixedOp(ops, self.C_in, self.C_out)
             layers[t] = layers[t] + st_op(layers[s])
         return layers[3]
