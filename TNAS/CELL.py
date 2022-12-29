@@ -214,6 +214,7 @@ class Cell(nn.Module):
 
     def forward(self, x):
         layers = [torch.zeros_like(x)]*6
+        layers[0] = x
         for i in range(6):
             s, t = L[i]
             ops = node_ops[self.Arch[i]]
