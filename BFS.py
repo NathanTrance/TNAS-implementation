@@ -75,6 +75,16 @@ def Build_cand_arch(Arch, mask, o0, o1):
 def Score(Arch):
     return TNAS.Train_tester.get_metric(Arch)
 
+def Check_connected(Arch):
+    fr = [True]*4
+    fr[0] = False
+    for i in range(6):
+        s, t = L[i]
+        if Arch[i] == 1:
+            continue
+        fr[t] = fr[s]
+    return not fr[3]
+
 def BFS_T_o():
     Arch = [0,0,0,0,0,0]
     q = []
@@ -95,6 +105,10 @@ def BFS_T_o():
             Cand_arch = Build_cand_arch(Arch, mask, o0, o1)
             print(Cand_arch)
             start_time = time.time()
+            if not Check_connected(Cand_arch):
+                continue
+            if Cur_arch == Cand_arch:
+                continue
             cand_score = Score(Cand_arch)
             if score < cand_score:
                 Cur_arch = Cand_arch
