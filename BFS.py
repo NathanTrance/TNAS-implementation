@@ -101,10 +101,10 @@ def BFS_T_o():
             continue
         o0 = e[u][0]
         o1 = e[u][1]
-        Cur_arch = Build_cand_arch(Arch, To_mask(0), o0, o1)
+        Cur_arch = Build_cand_arch(Arch, To_mask(0))
         score = Score(Cur_arch)
         for mask in masks:
-            Cand_arch = Build_cand_arch(Arch, mask, o0, o1)
+            Cand_arch = Build_cand_arch(Arch, mask)
             print(Cand_arch)
             start_time = time.time()
             if not Check_connected(Cand_arch):
