@@ -11,10 +11,10 @@ node_ops = [[]]*9 # operations on id-th node
 e = [[]]*9 # edge list
 par = [-1]*9 # parent list
 
-e[0].extend([1,2])
-e[2].extend([3,4])
-e[3].extend([5,6])
-e[4].extend([7,8])
+e[0] = [1,2]
+e[2] = [3,4]
+e[3] = [5,6]
+e[4] = [7,8]
 
 par[1] = 0
 par[2] = 0
@@ -58,18 +58,20 @@ def Build_masks():
     for i in range(mask_len + 1):
         masks.append(To_mask(i))
 
-def Build_cand_arch(Arch, mask, o0, o1):
+def Build_cand_arch(Arch, mask):
     Cand_arch = []
     Len = len(mask)
     for i in range(Len):
+        if len(e[Arch[i]]) < 2:
+            Cand_arch.append(Arch[i])
+            continue
+        o0 = e[Arch[i]][0]
+        o1 = e[Arch[i]][1]
         b = mask[i]
         op = o0
         if b == '1':
             op = o1
-        if Arch[i] == par[op]:
-            Cand_arch.append(op)
-        else:
-            Cand_arch.append(Arch[i])
+        Cand_arch.append(op)
     return Cand_arch
 
 def Score(Arch):
