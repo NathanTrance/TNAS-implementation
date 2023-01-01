@@ -23,8 +23,10 @@ def Make_bench_string(Arch):
         ops_Arch.append(str(node_ops[Arch[i]]))
     return '|{}~0|+|{}~0|{}~1|+|{}~0|{}~1|{}~2|'.format(ops_Arch[0],ops_Arch[1],ops_Arch[3],ops_Arch[2],ops_Arch[4],ops_Arch[5])
 
+Arch = [6,7,1,5,1,7]
+
 api = API('NAS-Bench-201-v1_1-096897.pth', verbose=False)
-Arch_string = '|skip_connect~0|+|none~0|nor_conv_1x1~1|+|none~0|none~1|skip_connect~2|'
+Arch_string = Make_bench_string(Arch)
 
 index = api.query_index_by_arch(Arch_string)
 api.show(index)
