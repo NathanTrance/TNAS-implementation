@@ -1,0 +1,299 @@
+Build_masks: Done
+0 [1, 1, 1, 1, 1, 1]
+Accuracy of the network on the 10000 test images: 10.036000000000001 %
+Accuracy of the network on the 10000 test images: 10.036000000000001 %
+Accuracy of the network on the 10000 test images: 10.036000000000001 %
+000000 [1, 1, 1, 1, 1, 1] False
+000001 [1, 1, 1, 1, 1, 2] False
+000010 [1, 1, 1, 1, 2, 1] False
+000011 [1, 1, 1, 1, 2, 2] False
+000100 [1, 1, 1, 2, 1, 1] False
+000101 [1, 1, 1, 2, 1, 2] False
+000110 [1, 1, 1, 2, 2, 1] False
+000111 [1, 1, 1, 2, 2, 2] False
+001000 [1, 1, 2, 1, 1, 1] True
+Accuracy of the network on the 10000 test images: 33.288000000000004 %
+Accuracy of the network on the 10000 test images: 28.124 %
+Accuracy of the network on the 10000 test images: 32.135999999999996 %
+001001 [1, 1, 2, 1, 1, 2] False
+001010 [1, 1, 2, 1, 2, 1] False
+001011 [1, 1, 2, 1, 2, 2] False
+001100 [1, 1, 2, 2, 1, 1] False
+001101 [1, 1, 2, 2, 1, 2] False
+001110 [1, 1, 2, 2, 2, 1] False
+001111 [1, 1, 2, 2, 2, 2] False
+010000 [1, 2, 1, 1, 1, 1] False
+010001 [1, 2, 1, 1, 1, 2] True
+Accuracy of the network on the 10000 test images: 28.032 %
+Accuracy of the network on the 10000 test images: 35.416 %
+Accuracy of the network on the 10000 test images: 31.080000000000002 %
+010010 [1, 2, 1, 1, 2, 1] False
+010011 [1, 2, 1, 1, 2, 2] False
+010100 [1, 2, 1, 2, 1, 1] False
+010101 [1, 2, 1, 2, 1, 2] False
+010110 [1, 2, 1, 2, 2, 1] False
+010111 [1, 2, 1, 2, 2, 2] False
+011000 [1, 2, 2, 1, 1, 1] False
+011001 [1, 2, 2, 1, 1, 2] True
+Accuracy of the network on the 10000 test images: 30.516 %
+Accuracy of the network on the 10000 test images: 35.232 %
+Accuracy of the network on the 10000 test images: 33.728 %
+011010 [1, 2, 2, 1, 2, 1] False
+011011 [1, 2, 2, 1, 2, 2] False
+011100 [1, 2, 2, 2, 1, 1] False
+011101 [1, 2, 2, 2, 1, 2] False
+011110 [1, 2, 2, 2, 2, 1] False
+011111 [1, 2, 2, 2, 2, 2] False
+100000 [2, 1, 1, 1, 1, 1] False
+100001 [2, 1, 1, 1, 1, 2] False
+100010 [2, 1, 1, 1, 2, 1] True
+Accuracy of the network on the 10000 test images: 32.952 %
+Accuracy of the network on the 10000 test images: 35.992000000000004 %
+Accuracy of the network on the 10000 test images: 34.732 %
+100011 [2, 1, 1, 1, 2, 2] False
+100100 [2, 1, 1, 2, 1, 1] False
+100101 [2, 1, 1, 2, 1, 2] True
+Accuracy of the network on the 10000 test images: 33.983999999999995 %
+Accuracy of the network on the 10000 test images: 37.644 %
+Accuracy of the network on the 10000 test images: 34.464 %
+100110 [2, 1, 1, 2, 2, 1] False
+100111 [2, 1, 1, 2, 2, 2] True
+Accuracy of the network on the 10000 test images: 34.408 %
+Accuracy of the network on the 10000 test images: 33.756 %
+Accuracy of the network on the 10000 test images: 36.303999999999995 %
+101000 [2, 1, 2, 1, 1, 1] False
+101001 [2, 1, 2, 1, 1, 2] False
+101010 [2, 1, 2, 1, 2, 1] True
+Accuracy of the network on the 10000 test images: 29.715999999999998 %
+Accuracy of the network on the 10000 test images: 34.86 %
+Accuracy of the network on the 10000 test images: 34.227999999999994 %
+101011 [2, 1, 2, 1, 2, 2] False
+101100 [2, 1, 2, 2, 1, 1] False
+101101 [2, 1, 2, 2, 1, 2] True
+Accuracy of the network on the 10000 test images: 37.24 %
+Accuracy of the network on the 10000 test images: 34.876000000000005 %
+Accuracy of the network on the 10000 test images: 31.548 %
+101110 [2, 1, 2, 2, 2, 1] False
+101111 [2, 1, 2, 2, 2, 2] True
+Accuracy of the network on the 10000 test images: 9.927999999999999 %
+Accuracy of the network on the 10000 test images: 13.303999999999998 %
+Accuracy of the network on the 10000 test images: 9.879999999999999 %
+110000 [2, 2, 1, 1, 1, 1] False
+110001 [2, 2, 1, 1, 1, 2] False
+110010 [2, 2, 1, 1, 2, 1] False
+110011 [2, 2, 1, 1, 2, 2] True
+Accuracy of the network on the 10000 test images: 28.148 %
+Accuracy of the network on the 10000 test images: 30.184 %
+Accuracy of the network on the 10000 test images: 34.42 %
+110100 [2, 2, 1, 2, 1, 1] False
+110101 [2, 2, 1, 2, 1, 2] True
+Accuracy of the network on the 10000 test images: 32.212 %
+Accuracy of the network on the 10000 test images: 34.568 %
+Accuracy of the network on the 10000 test images: 29.56 %
+110110 [2, 2, 1, 2, 2, 1] False
+110111 [2, 2, 1, 2, 2, 2] True
+Accuracy of the network on the 10000 test images: 9.927999999999999 %
+Accuracy of the network on the 10000 test images: 10.084 %
+Accuracy of the network on the 10000 test images: 9.927999999999999 %
+111000 [2, 2, 2, 1, 1, 1] False
+111001 [2, 2, 2, 1, 1, 2] False
+111010 [2, 2, 2, 1, 2, 1] False
+111011 [2, 2, 2, 1, 2, 2] True
+Accuracy of the network on the 10000 test images: 29.764000000000003 %
+Accuracy of the network on the 10000 test images: 35.856 %
+Accuracy of the network on the 10000 test images: 30.18 %
+111100 [2, 2, 2, 2, 1, 1] False
+111101 [2, 2, 2, 2, 1, 2] True
+Accuracy of the network on the 10000 test images: 23.604 %
+Accuracy of the network on the 10000 test images: 22.904 %
+Accuracy of the network on the 10000 test images: 24.308 %
+111110 [2, 2, 2, 2, 2, 1] False
+111111 [2, 2, 2, 2, 2, 2] True
+Accuracy of the network on the 10000 test images: 10.036000000000001 %
+Accuracy of the network on the 10000 test images: 10.036000000000001 %
+Accuracy of the network on the 10000 test images: 10.036000000000001 %
+1 [3, 1, 1, 3, 1, 3]
+Accuracy of the network on the 10000 test images: 25.679999999999996 %
+Accuracy of the network on the 10000 test images: 24.116 %
+Accuracy of the network on the 10000 test images: 22.348000000000003 %
+000000 [3, 1, 1, 3, 1, 3] True
+000001 [3, 1, 1, 3, 1, 4] True
+Accuracy of the network on the 10000 test images: 26.363999999999997 %
+Accuracy of the network on the 10000 test images: 24.684 %
+Accuracy of the network on the 10000 test images: 22.396 %
+000010 [3, 1, 1, 3, 1, 3] True
+Accuracy of the network on the 10000 test images: 21.42 %
+Accuracy of the network on the 10000 test images: 23.34 %
+Accuracy of the network on the 10000 test images: 20.968 %
+000011 [3, 1, 1, 3, 1, 4] True
+000100 [3, 1, 1, 4, 1, 3] True
+Accuracy of the network on the 10000 test images: 23.392 %
+Accuracy of the network on the 10000 test images: 26.46 %
+Accuracy of the network on the 10000 test images: 26.423999999999996 %
+000101 [3, 1, 1, 4, 1, 4] True
+Accuracy of the network on the 10000 test images: 26.704 %
+Accuracy of the network on the 10000 test images: 28.316000000000003 %
+Accuracy of the network on the 10000 test images: 27.836 %
+000110 [3, 1, 1, 4, 1, 3] True
+000111 [3, 1, 1, 4, 1, 4] True
+001000 [3, 1, 1, 3, 1, 3] True
+001001 [3, 1, 1, 3, 1, 4] True
+001010 [3, 1, 1, 3, 1, 3] True
+001011 [3, 1, 1, 3, 1, 4] True
+001100 [3, 1, 1, 4, 1, 3] True
+001101 [3, 1, 1, 4, 1, 4] True
+001110 [3, 1, 1, 4, 1, 3] True
+001111 [3, 1, 1, 4, 1, 4] True
+010000 [3, 1, 1, 3, 1, 3] True
+010001 [3, 1, 1, 3, 1, 4] True
+010010 [3, 1, 1, 3, 1, 3] True
+010011 [3, 1, 1, 3, 1, 4] True
+010100 [3, 1, 1, 4, 1, 3] True
+010101 [3, 1, 1, 4, 1, 4] True
+010110 [3, 1, 1, 4, 1, 3] True
+010111 [3, 1, 1, 4, 1, 4] True
+011000 [3, 1, 1, 3, 1, 3] True
+011001 [3, 1, 1, 3, 1, 4] True
+011010 [3, 1, 1, 3, 1, 3] True
+011011 [3, 1, 1, 3, 1, 4] True
+011100 [3, 1, 1, 4, 1, 3] True
+011101 [3, 1, 1, 4, 1, 4] True
+011110 [3, 1, 1, 4, 1, 3] True
+011111 [3, 1, 1, 4, 1, 4] True
+100000 [4, 1, 1, 3, 1, 3] True
+Accuracy of the network on the 10000 test images: 22.919999999999998 %
+Accuracy of the network on the 10000 test images: 24.528 %
+Accuracy of the network on the 10000 test images: 23.688000000000002 %
+100001 [4, 1, 1, 3, 1, 4] True
+Accuracy of the network on the 10000 test images: 26.848 %
+Accuracy of the network on the 10000 test images: 32.828 %
+Accuracy of the network on the 10000 test images: 28.964000000000002 %
+100010 [4, 1, 1, 3, 1, 3] True
+100011 [4, 1, 1, 3, 1, 4] True
+100100 [4, 1, 1, 4, 1, 3] True
+Accuracy of the network on the 10000 test images: 27.08 %
+Accuracy of the network on the 10000 test images: 30.652 %
+Accuracy of the network on the 10000 test images: 31.319999999999997 %
+100101 [4, 1, 1, 4, 1, 4] True
+Accuracy of the network on the 10000 test images: 22.492 %
+Accuracy of the network on the 10000 test images: 22.556 %
+Accuracy of the network on the 10000 test images: 22.38 %
+100110 [4, 1, 1, 4, 1, 3] True
+100111 [4, 1, 1, 4, 1, 4] True
+101000 [4, 1, 1, 3, 1, 3] True
+101001 [4, 1, 1, 3, 1, 4] True
+101010 [4, 1, 1, 3, 1, 3] True
+101011 [4, 1, 1, 3, 1, 4] True
+101100 [4, 1, 1, 4, 1, 3] True
+101101 [4, 1, 1, 4, 1, 4] True
+101110 [4, 1, 1, 4, 1, 3] True
+101111 [4, 1, 1, 4, 1, 4] True
+110000 [4, 1, 1, 3, 1, 3] True
+110001 [4, 1, 1, 3, 1, 4] True
+110010 [4, 1, 1, 3, 1, 3] True
+110011 [4, 1, 1, 3, 1, 4] True
+110100 [4, 1, 1, 4, 1, 3] True
+110101 [4, 1, 1, 4, 1, 4] True
+110110 [4, 1, 1, 4, 1, 3] True
+110111 [4, 1, 1, 4, 1, 4] True
+111000 [4, 1, 1, 3, 1, 3] True
+111001 [4, 1, 1, 3, 1, 4] True
+111010 [4, 1, 1, 3, 1, 3] True
+111011 [4, 1, 1, 3, 1, 4] True
+111100 [4, 1, 1, 4, 1, 3] True
+111101 [4, 1, 1, 4, 1, 4] True
+111110 [4, 1, 1, 4, 1, 3] True
+111111 [4, 1, 1, 4, 1, 4] True
+2 [7, 1, 1, 5, 1, 7]
+Accuracy of the network on the 10000 test images: 30.44 %
+Accuracy of the network on the 10000 test images: 33.648 %
+Accuracy of the network on the 10000 test images: 32.248 %
+000000 [7, 1, 1, 5, 1, 7] True
+000001 [7, 1, 1, 5, 1, 8] True
+Accuracy of the network on the 10000 test images: 33.272 %
+Accuracy of the network on the 10000 test images: 32.796 %
+Accuracy of the network on the 10000 test images: 31.348 %
+000010 [7, 1, 1, 5, 1, 7] True
+000011 [7, 1, 1, 5, 1, 8] True
+000100 [7, 1, 1, 6, 1, 7] True
+Accuracy of the network on the 10000 test images: 31.416 %
+Accuracy of the network on the 10000 test images: 29.215999999999998 %
+Accuracy of the network on the 10000 test images: 32.916000000000004 %
+000101 [7, 1, 1, 6, 1, 8] True
+Accuracy of the network on the 10000 test images: 30.976 %
+Accuracy of the network on the 10000 test images: 28.308 %
+Accuracy of the network on the 10000 test images: 23.536 %
+000110 [7, 1, 1, 6, 1, 7] True
+000111 [7, 1, 1, 6, 1, 8] True
+001000 [7, 1, 1, 5, 1, 7] True
+001001 [7, 1, 1, 5, 1, 8] True
+001010 [7, 1, 1, 5, 1, 7] True
+001011 [7, 1, 1, 5, 1, 8] True
+001100 [7, 1, 1, 6, 1, 7] True
+001101 [7, 1, 1, 6, 1, 8] True
+001110 [7, 1, 1, 6, 1, 7] True
+001111 [7, 1, 1, 6, 1, 8] True
+010000 [7, 1, 1, 5, 1, 7] True
+010001 [7, 1, 1, 5, 1, 8] True
+010010 [7, 1, 1, 5, 1, 7] True
+010011 [7, 1, 1, 5, 1, 8] True
+010100 [7, 1, 1, 6, 1, 7] True
+010101 [7, 1, 1, 6, 1, 8] True
+010110 [7, 1, 1, 6, 1, 7] True
+010111 [7, 1, 1, 6, 1, 8] True
+011000 [7, 1, 1, 5, 1, 7] True
+011001 [7, 1, 1, 5, 1, 8] True
+011010 [7, 1, 1, 5, 1, 7] True
+011011 [7, 1, 1, 5, 1, 8] True
+011100 [7, 1, 1, 6, 1, 7] True
+011101 [7, 1, 1, 6, 1, 8] True
+011110 [7, 1, 1, 6, 1, 7] True
+011111 [7, 1, 1, 6, 1, 8] True
+100000 [8, 1, 1, 5, 1, 7] True
+Accuracy of the network on the 10000 test images: 29.688 %
+Accuracy of the network on the 10000 test images: 28.156 %
+Accuracy of the network on the 10000 test images: 29.62 %
+100001 [8, 1, 1, 5, 1, 8] True
+Accuracy of the network on the 10000 test images: 28.948 %
+Accuracy of the network on the 10000 test images: 27.912 %
+Accuracy of the network on the 10000 test images: 26.951999999999998 %
+100010 [8, 1, 1, 5, 1, 7] True
+100011 [8, 1, 1, 5, 1, 8] True
+100100 [8, 1, 1, 6, 1, 7] True
+Accuracy of the network on the 10000 test images: 25.912000000000003 %
+Accuracy of the network on the 10000 test images: 29.64 %
+Accuracy of the network on the 10000 test images: 28.720000000000002 %
+100101 [8, 1, 1, 6, 1, 8] True
+Accuracy of the network on the 10000 test images: 23.855999999999998 %
+Accuracy of the network on the 10000 test images: 21.78 %
+Accuracy of the network on the 10000 test images: 19.156000000000002 %
+100110 [8, 1, 1, 6, 1, 7] True
+100111 [8, 1, 1, 6, 1, 8] True
+101000 [8, 1, 1, 5, 1, 7] True
+101001 [8, 1, 1, 5, 1, 8] True
+101010 [8, 1, 1, 5, 1, 7] True
+101011 [8, 1, 1, 5, 1, 8] True
+101100 [8, 1, 1, 6, 1, 7] True
+101101 [8, 1, 1, 6, 1, 8] True
+101110 [8, 1, 1, 6, 1, 7] True
+101111 [8, 1, 1, 6, 1, 8] True
+110000 [8, 1, 1, 5, 1, 7] True
+110001 [8, 1, 1, 5, 1, 8] True
+110010 [8, 1, 1, 5, 1, 7] True
+110011 [8, 1, 1, 5, 1, 8] True
+110100 [8, 1, 1, 6, 1, 7] True
+110101 [8, 1, 1, 6, 1, 8] True
+110110 [8, 1, 1, 6, 1, 7] True
+110111 [8, 1, 1, 6, 1, 8] True
+111000 [8, 1, 1, 5, 1, 7] True
+111001 [8, 1, 1, 5, 1, 8] True
+111010 [8, 1, 1, 5, 1, 7] True
+111011 [8, 1, 1, 5, 1, 8] True
+111100 [8, 1, 1, 6, 1, 7] True
+111101 [8, 1, 1, 6, 1, 8] True
+111110 [8, 1, 1, 6, 1, 7] True
+111111 [8, 1, 1, 6, 1, 8] True
+[7, 1, 1, 5, 1, 7]
+Final Judge:
+Accuracy of the network on the 10000 test images: 61.68 %
+([7, 1, 1, 5, 1, 7], 0.6168)
