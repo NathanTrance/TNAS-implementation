@@ -20,6 +20,6 @@ Architecture		200 epoch	Train_transform				Note						By	Date
 [5, 1, 7, 1, 6, 1]	92.83%		tensor_crop_hflip_vflip_oldnorm								Biển
 [5, 1, 1, 1, 7, 1]	88.77%		tensor_crop_hflip_oldnorm								Đức	3/1/2023 - 4/1/2023
 [5, 5, 1, 5, 1, 7]	89.25%		tensor_crop_hflip_oldnorm								Đức
-[6, 8, 7, 1, 6, 8]			tensor_crop_hflip_oldnorm		Optimized					Minh
+[6, 8, 7, 1, 6, 8]	92.20%		tensor_crop_hflip_oldnorm		Optimized					Minh
 [5, 7, 1, 6, 1, 7]	92.57%		hflip_crop_tensor_newnorm								Nhật	4/1/2023
 
