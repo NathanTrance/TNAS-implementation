@@ -1,0 +1,33 @@
+Architecture		200 epoch	Train_transform				Note						By	Date
+[7, 7, 7, 1, 7, 7]			tensor_oldnorm				No prune, Check connect bug, Cuda bug		Minh	31/12/2022
+[8, 7, 7, 1, 1, 1]			tensor_oldnorm				No prune, Check connect bug, Cuda bug		Minh
+[7, 1, 7, 1, 7, 1]			tensor_oldnorm				No prune, Check connect bug, Cuda bug		Minh
+[8, 7, 6, 1, 1, 7]			tensor_oldnorm				No prune, Check connect bug, Cuda bug		Đức
+[1, 5, 5, 1, 1, 1]			tensor_oldnorm				No prune, Check connect bug, Cuda fixed		Đức
+[1, 6, 5, 1, 1, 1]			tensor_oldnorm				No prune, Check connect bug			Đức
+[1, 1, 5, 1, 1, 1](1)			tensor_oldnorm				No prune, Check connect bug			Đức
+[8, 1, 5, 1, 1, 8]			tensor_oldnorm				No prune, Check connect fixed			Đức
+[1, 7, 5, 1, 7, 1]			tensor_oldnorm				No prune					Đức
+[5, 7, 1, 6, 1, 7](1)			tensor_oldnorm				Pruned, Average score(3)			Minh
+[6, 7, 1, 5, 1, 7]	92.96%		tensor_oldnorm				12 epoch: 87.52%				Minh	1/1/2023
+[7, 1, 1, 5, 1, 7]	88.88%		tensor_crop_hflip_vflip_oldnorm		12 epoch: 79.71%				Đức	1/1/2023 - 2/1/2023
+[1, 1, 5, 1, 1, 1](2)	88.77%		tensor_crop_hflip_vflip_oldnorm								Đức
+[1, 5, 1, 1, 1, 5]	87.35%		tensor_crop_hflip_vflip_oldnorm								Đức	2/1/2023
+[1, 1, 5, 1, 1, 1](3)	88.77%		tensor_crop_hflip_vflip_oldnorm								Đức
+[5, 1, 1, 7, 1, 7](1)	88.63%		tensor_crop_hflip_vflip_oldnorm		12 epoch: 79.71%				Đức	3/1/2023
+[5, 5, 1, 7, 1, 7]	89.05%		tensor_crop_hflip_oldnorm		12 epoch: 79.62%				Đức
+[5, 1, 1, 7, 1, 7](2)	88.63%		tensor_crop_hflip_oldnorm								Nhật
+[5, 1, 7, 1, 6, 1]	92.83%		tensor_crop_hflip_vflip_oldnorm								Biển
+[5, 1, 1, 1, 7, 1](1)	88.77%		tensor_crop_hflip_oldnorm								Đức	3/1/2023 - 4/1/2023
+[5, 5, 1, 5, 1, 7]	89.25%		tensor_crop_hflip_oldnorm								Đức
+[6, 8, 7, 1, 6, 8]			tensor_crop_hflip_oldnorm		Optimized					Minh
+[5, 7, 1, 6, 1, 7](2)	92.57%		hflip_crop_tensor_newnorm		Score(1)					Nhật	4/1/2023
+[1, 5, 1, 1, 1, 7]	88.82%		hflip_crop_tensor_newnorm		Sampler changed					Đức
+[1, 1, 5, 1, 1, 1](4)	88.77%		hflip_crop_tensor_newnorm		Sampler changed					Đức
+[1, 1, 5, 1, 1, 1](5)	88.77%		tensor_crop_hflip_oldnorm								Biển
+[1, 1, 5, 1, 1, 1](6)	88.77%		hflip_crop_tensor_newnorm								Đức
+[5, 1, 1, 1, 7, 1](2)	88.77%		hflip_crop_tensor_newnorm								Đức
+[5, 1, 1, 1, 7, 1](3)	88.77%		hflip_crop_tensor_newnorm		Sampler changed					Biển
+[5, 1, 1, 6, 7, 5]	91.92%		hflip_crop_tensor_newnorm		Sampler changed, Score(1)			Đức
+[6, 7, 7, 1, 6, 5]	93.62%		hflip_crop_tensor_newnorm		Score(1)					Đức
+[1, 1, 5, 1, 1, 1](7)	88.77%		hflip_crop_tensor_newnorm		Sampler changed, Score(1)			Biển
