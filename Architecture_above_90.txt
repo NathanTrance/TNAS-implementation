@@ -1,7 +1,7 @@
 Architecture		200 epoch	Train_transform				Note						By	Date
 [6, 7, 1, 5, 1, 7]	92.96%		tensor_oldnorm				Average score(3), 12 epoch: 87.52%		Minh	1/1/2023
 [5, 1, 7, 1, 6, 1]	92.83%		tensor_crop_hflip_vflip_oldnorm		Average score(3)				Biển	3/1/2023
-[5, 7, 1, 6, 1, 7](2)	92.57%		hflip_crop_tensor_newnorm		Score(1)(default)				Nhật	4/1/2023
+[5, 7, 1, 6, 1, 7]	92.57%		hflip_crop_tensor_newnorm		Score(1)(default)				Nhật	4/1/2023
 [5, 1, 1, 6, 7, 5]	91.92%		hflip_crop_tensor_newnorm								Đức
 [6, 7, 7, 1, 6, 5]	93.62%		hflip_crop_tensor_newnorm								Đức
 [7, 5, 7, 1, 6, 6]	93.06%		hflip_crop_tensor_newnorm		Old sampler					Đức	4/1/2023 - 5/1/2023
